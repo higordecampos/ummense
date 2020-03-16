@@ -1,0 +1,9 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^1.9.1",
+    "popper.js": "^1.16.1"
+  }
+}
