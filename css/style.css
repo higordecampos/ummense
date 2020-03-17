@@ -17,3 +17,13 @@ span.green-text {
     max-width: 868px;
     margin: 0 auto;
 }
+
+.row.text-body {
+    text-align: center;
+    padding: 100px 0 20px 0;
+}
+
+.rodape{
+    height: 300px;
+    width: 100%;
+}
