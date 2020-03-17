@@ -1,5 +1,19 @@
 /* NAVBAR */
 
-.top-content{
-    float: right
+.text-center h1{
+    text-align: center;
+    color:#404F61 ;
+}
+
+span.green-text {
+    color: #8BBD4F;
+}
+
+.first-text{
+    padding: 50px 0;
+}
+
+.row.img-main img {
+    max-width: 868px;
+    margin: 0 auto;
 }
