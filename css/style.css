@@ -153,7 +153,6 @@ span.green-text {
     input#name {
         width: 225px!important;
     }
-    
     input#email {
         width: 225px!important;
     }
@@ -163,11 +162,9 @@ span.green-text {
     input#name {
         width: 100%!important;
     }
-    
     input#email {
         width: 100%!important;
     }
-
     .container.news h3 {
         padding: 0 18px;
     }
@@ -176,12 +173,12 @@ span.green-text {
     }
 }
 
+@media screen and (min-width:960px) {
+    .container.news {
+        max-width: 960px;
+    }
+}
 
-@media screen and (min-width:960px){
-.container.news {
-    max-width: 960px;
-}
-}
 .newsletter {
     background: #364E62;
     color: white;
@@ -221,4 +218,59 @@ input#email {
 
 .row.rodape img {
     padding: 0 5px;
+}
+
+/* FORMULÁRIO */
+
+.container.form {
+    max-width: 570px;
+    padding: 60px 20px;
+}
+
+.container.form h2 {
+    font-weight: 400;
+    color: #4C6173;
+}
+
+input#name-form {
+    padding: 27px 10px;
+    border-color: #E7EAEF;
+    color: #B0B2B4;
+    font-weight: 500;
+}
+
+input#email-form {
+    padding: 27px 10px;
+    border-color: #E7EAEF;
+    color: #B0B2B4;
+    font-weight: 500;
+}
+
+input#phone-form {
+    padding: 27px 10px;
+    border-color: #E7EAEF;
+    color: #B0B2B4;
+    font-weight: 500;
+}
+
+.btn-form {
+    background: #8BBD4F;
+    color: white;
+    padding: 17px 25px;
+    font-weight: 500;
+}
+
+textarea#comment-form {
+    border-color: #E7EAEF;
+    padding: 15px;
+    color: #B0B2B4;
+    font-weight: 500;
+}
+
+.form-group {
+    margin-bottom: -15px;
+}
+
+button.btn.btn-form {
+    margin-top: 25px;
 }

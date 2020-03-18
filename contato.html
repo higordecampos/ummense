@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<!-- Header -->
+
+<body>
+  <div class="container">
+    <div class="row top-cont-menu top-cont">
+      <div class="col-md-6"></div>
+      <div class="col-md-6">
+        <a href="#">Contato</a>
+        <img src="images/linkedin.png" alt="">
+        <img src="images/facebook.png" alt="">
+        <img src="images/instagram.png" alt="">
+        <img src="images/twitter.png" alt="">
+        <img src="images/youtube.png" alt="">
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="container-fluid top-menu">
+    <div class="container menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo-ummense.jpg" alt="">
+          </a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Formulário -->
+  <div class="container form">
+    <h2>
+      Fale <strong>conosco</strong>
+    </h2>
+    <form method="POST" action="/form.php">
+      <div class="form-group">
+        <label for="usr"></label>
+        <input type="text" class="form-control" placeholder="Nome" id="name-form">
+      </div>
+      <div class="form-group">
+        <label for="email"></label>
+        <input type="email" class="form-control" placeholder="E-mail" id="email-form">
+      </div>
+      <div class="form-group">
+        <label for="phone"></label>
+        <input type="text" class="form-control" placeholder="Telefone" id="phone-form">
+      </div>
+      <div class="form-group">
+        <label for="comment"></label>
+        <textarea class="form-control" rows="5" placeholder="Mensagem" id="comment-form"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-form">Enviar</button>
+    </form>
+
+
+  </div>
+
+ <!--Newsletter-->
+
+ <div class="container-fluid newsletter">
+  <div class="container news">
+    <h3>Seja um dos primeiros</h3>
+    <p>A plataforma Ummense está em fase de testes e em algumas semanas você poderá aproveitar os benefícios da
+      Ummense para impulsionar sua organização! Deixe aqui seu e-mail para avisarmos você.</p>
+
+    <form class="form-inline" method="POST" action="/action_page.php">
+      <div class="col-md-4">
+        <label for="name">testes</label>
+        <input type="name" class="form-control" placeholder="Seu primeiro nome" id="name">
+      </div>
+      <div class="col-md-4 ">
+        <label for="email">E-mail</label>
+        <input type="email" class="form-control" placeholder="Insira seu melhor e-mail" id="email">
+        <div class="form-check">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <button type="submit" class="btn btn-green">Quero ser avisado</button>
+      </div>
+    </form>
+
+  </div>
+</div>
+
+  <!--Rodapé-->
+  <div class="container-fluid footer">
+    <div class="container">
+      <div class="row rodape">
+        <div class="col">
+          <p>Uma empresa do grupo <img src="images/logo-scopo.png" alt=""></p>
+
+        </div>
+        <div class="col redes">
+          <img src="images/linkedin.png" alt="">
+          <img src="images/facebook.png" alt="">
+          <img src="images/instagram.png" alt="">
+          <img src="images/twitter.png" alt="">
+          <img src="images/youtube.png" alt="">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
