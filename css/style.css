@@ -1,21 +1,104 @@
+/* TOP MENU */
+
+.row.top-cont-menu.top-cont img {
+    padding: 0 5px;
+}
+
+.container-fluid.top-cont {
+    border-top: solid 1px #E7EAEF;
+    border-bottom: solid 1px #E7EAEF;
+    background: #FBFCFD;
+}
+
+.container-fluid.top-menu {
+    border-bottom: solid 1px #E7EAEF;
+}
+
+.top-menu {
+    background: #FBFCFD;
+}
+
+.top-cont-menu {
+    padding: 10px 0px;
+    text-align: right;
+}
+
+.row.top-cont-menu a {
+    padding: 10px;
+    color: #707070;
+    font-weight: 600;
+}
+
 /* NAVBAR */
 
-.text-center h1{
+.menu {
+    background: #FBFCFD;
+}
+
+/* PRIMEIRO TEXTO */
+
+.text-center h1 {
     text-align: center;
-    color:#404F61 ;
+    color: #404F61;
 }
 
 span.green-text {
     color: #8BBD4F;
 }
 
-.first-text{
+.col.text-center h6 {
+    color: #707070;
+}
+
+.first-text {
     padding: 50px 0;
 }
 
 .row.img-main img {
-    max-width: 868px;
+    max-width: 100%;
     margin: 0 auto;
+    height: auto;
+    padding: 0 40px;
+}
+
+/* TEXTO-COLUNAS */
+
+.row.text-column p {
+    padding: 0 50px;
+    color: #4C6173;
+}
+
+@media screen and (max-width:767px) {
+    .row.text-column p {
+        padding: 25px 150px;
+    }
+}
+
+@media screen and (max-width:463px) {
+    .row.text-column p {
+        padding: 25px 80px;
+    }
+}
+
+.row.text-column h3 {
+    color: #208fcf;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.row.text-column p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.row.text-body h2 {
+    font-size: 35px;
+    color: #4C6173!important;
+}
+
+.row.text-body p {
+    color: #4C6173;
 }
 
 .row.text-body {
@@ -23,7 +106,119 @@ span.green-text {
     padding: 100px 0 20px 0;
 }
 
-.rodape{
-    height: 300px;
-    width: 100%;
+/* TEXT BLUE */
+
+.container-fluid.text-blue {
+    background: #3C9DD5;
+    margin: 50px 0px;
+    padding: 50px 0px;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+
+.container-fluid.text-blue h3 {
+    font-weight: 400;
+}
+
+/* METODOLOGIAS */
+
+.container.metodologias h3 {
+    max-width: 300px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.metodologias p {
+    text-align: left;
+}
+
+.metodologias {
+    text-align: center;
+    color: #4C6173;
+}
+
+@media screen and (max-width:767px) {
+    .metodologias {
+        text-align: center;
+    }
+    .container.metodologias img {
+        padding: 50px;
+    }
+}
+
+/* Newsletter */
+
+@media screen and (max-width:959px) {
+    input#name {
+        width: 225px!important;
+    }
+    
+    input#email {
+        width: 225px!important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    input#name {
+        width: 100%!important;
+    }
+    
+    input#email {
+        width: 100%!important;
+    }
+
+    .container.news h3 {
+        padding: 0 18px;
+    }
+    .container.news p {
+        padding: 0 18px;
+    }
+}
+
+
+@media screen and (min-width:960px){
+.container.news {
+    max-width: 960px;
+}
+}
+.newsletter {
+    background: #364E62;
+    color: white;
+    margin: 50px 0;
+    padding: 50px 0;
+}
+
+.form-inline label {
+    display: block;
+    font-weight: 700;
+}
+
+input#name {
+    width: 304px;
+    height: 60px;
+}
+
+input#email {
+    width: 304px;
+    height: 60px;
+}
+
+.btn-green {
+    background: #8BBD4F;
+    color: white;
+    height: 60px;
+    margin-top: 24px;
+}
+
+.footer {
+    border-bottom: solid 1px #E7EAEF;
+}
+
+.redes {
+    text-align: right;
+}
+
+.row.rodape img {
+    padding: 0 5px;
 }
